@@ -1,0 +1,41 @@
+TODO: improvement for the future
+================================
+
+More Tests
+++++++++++
+Some scenarios deploying severals applications and running
+doctests on it will be soon available.
+
+Handling Single Sign Out
+++++++++++++++++++++++++
+At this point, this plugin does handle SSO (Single Sign On).
+Yet, it does not handle Single Sign Out.
+There may be several ways to achieve this.
+
+ - A simple solution may be found by enabling the plugin to execute each
+   callable delivered by webapp whose purpose would be to
+   logout the user from it (e.g: by redirecting the browser on the logout url,
+   or deleting some cookies etc.).
+
+ - Currently, CAS 3 and higher handle SSOut by triggering a POST request to all
+   the web application registered. 
+   I did not digg this option at all, wonder how it would fit or not.
+
+ - ...
+
+Not relying on the CAS server itself ?
+++++++++++++++++++++++++++++++++++++++
+At the moment, the plugin relies on a CAS server.
+Yet, CAS is just a specific trusted third party (e.g.: like Kerberos etc.)
+
+Thus, to avoid code redundancy between plugins dealing with concrete
+implementation of this "trusted third party abstraction",
+we should code against this abstraction => refactor this code.
+
+Yet, of course, rather than extending this plugin, we may create a new one,
+if each implementations tends to get very specific.
+
+
+Misc
+++++
+Clearing and make more relevant comments ;)

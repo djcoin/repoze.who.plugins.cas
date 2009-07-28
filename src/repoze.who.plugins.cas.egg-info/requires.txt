@@ -1,0 +1,6 @@
+repoze.who>=1.0
+
+[test]
+ipython
+zope.testing
+PasteDeploy

@@ -1,0 +1,13 @@
+# all files flagged as backup files using the 
+# end string : .bk followed by a number
+#*.bk[0123456789]  
+#*.bk[0-9]*
+#
+# limited to 9
+*.bk[0-9]
+*.bk
+src/blackhole.who.plugins.egg-info
+# all compiled/trash files
+*.pyc
+*.tar
+*.swp

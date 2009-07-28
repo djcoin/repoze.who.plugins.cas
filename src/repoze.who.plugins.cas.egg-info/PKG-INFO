@@ -1,0 +1,21 @@
+Metadata-Version: 1.0
+Name: repoze.who.plugins.cas
+Version: 0.1
+Summary: CAS plugin for repoze.who
+Home-page: http://cheeseshop.python.org/pypi/repoze.who.plugins.cas
+Author: Simon Thepot
+Author-email: dj.coin@laposte.net
+License: BSD
+Description: '
+        
+        '.join([README, INSTALL, CHANGELOG]),
+Keywords: cas authentication server web wsgi repoze repoze.who
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Middleware
+Classifier: Topic :: System :: Systems Administration :: Authentication/Directory
