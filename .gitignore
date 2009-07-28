@@ -6,7 +6,7 @@
 # limited to 9
 *.bk[0-9]
 *.bk
-src/blackhole.who.plugins.egg-info
+src/repoze.who.plugins.cas.egg-info/
 # all compiled/trash files
 *.pyc
 *.tar
