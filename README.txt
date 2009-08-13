@@ -7,6 +7,8 @@ enabling straightforward "cassification" (i.e.: makings each of your
 applications part of the SSO mecanism) of all applications that can be deployed
 through `Python Paste <http://pythonpaste.org/deploy/>`_.
 
+It currently supports CAS 3.0, although it mays be used with others versions of CAS (yet, no compatiblity is ensured as it has only been tested with CAS 3.0).
+
 Applications which can be used :
 
 - App complying with the `simple_authentication WSGI specification <http://wsgi.org/wsgi/Specifications/simple_authentication>`_, which take advantage of the REMOTE_USER key in the WSGI environment.

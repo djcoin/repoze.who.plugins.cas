@@ -1,8 +1,8 @@
 Changes
-*******
+=======
 
 0.1 (2009-07-28)
--------------------------------
+++++++++++++++++
 Initial release.
 
  - Provides repoze.who plugins (i.e.: challenge, identifier, chalenge decider and

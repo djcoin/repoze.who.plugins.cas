@@ -1,6 +1,3 @@
-#
-# WTF Licence => do WTF you want
-#
 
 import os
 import sys
@@ -8,7 +5,7 @@ import sys
 from setuptools import setup, find_packages
 
 
-version= '0.1'
+version= '0.1.1'
 name='repoze.who.plugins.cas'
 
 here = os.path.abspath(os.path.dirname(__file__))
@@ -23,7 +20,7 @@ CHANGELOG = open(os.path.join(here, 'CHANGELOG.txt')).read()
 setup(name=name,
       version=version,
       description='CAS plugin for repoze.who',
-      long_description="""'\n\n'.join([README, INSTALL, ISSUES, CHANGELOG]), """,
+      long_description='\n\n'.join([README, INSTALL, TODO, ISSUES, CHANGELOG]),
       classifiers=[
           'Development Status :: 2 - Pre-Alpha',
           'Intended Audience :: Developers',
@@ -37,9 +34,9 @@ setup(name=name,
       keywords='cas authentication server web wsgi repoze repoze.who',
       author='Simon Thepot',
       author_email='dj.coin@laposte.net',
-      url = 'http://cheeseshop.python.org/pypi/%s' % name,
-      licence = 'BSD',
-
+      #url = 'http://cheeseshop.python.org/pypi/%s' % name,
+      url = 'http://github.com/djcoin/repoze.who.plugins.cas/',
+      license = 'BSD',
       namespace_packages=['repoze', 'repoze.who', 'repoze.who.plugins',
                           'repoze.who.plugins.cas'],
       include_package_data=True,
